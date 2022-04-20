@@ -1,0 +1,87 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+body {
+    background-image: linear-gradient(to right, rgb(165, 11, 81), rgb(62, 5, 31));
+}
+.t-interval {
+    color: grey;
+    border: none !important;
+    background-color: transparent !important;
+}
+.t-interval:hover {
+    color: white;
+    border-bottom: 2px solid red !important;
+}
+.interval-row {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    border-spacing: 30px;
+}
+.t-spacing {
+    margin-left: 30px !important;
+}
+.todo-div {
+    border-radius: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.arrow-btn {
+    background-color: transparent !important;
+    border: none !important;
+    color: grey;
+}
+.date {
+    color: grey;
+}
+.date-div {
+    justify-content: space-between !important;
+    justify-content: space-around !important;
+}
+.head-line {
+    color: black;
+}
+input::placeholder {
+    color: grey !important;
+}
+.input-btn {
+    background-color: transparent !important;
+    border: none;
+    color: grey;
+    margin-top: 5px;
+}
+.input-group {
+    background-color: rgb(24, 24, 24) !important;
+}
+.form-control {
+    background-color: transparent !important;
+    border: none !important;
+    color: white !important;
+}
+.form-check-input {
+    background-color: rgb(24, 24, 24) !important;
+    border: black !important;
+}
+.icon {
+    color: rgb(165, 11, 81) !important;
+    transform: rotate(-20deg);
+    margin-top: -5px;
+}
+.pin-div {
+    justify-content: space-between !important;
+    align-items: center;
+}
+.choice-btn {
+    background-color: transparent !important;
+    border: none !important;
+    color: white;
+    margin-top: -15px;
+}
+
+
+@media (max-width:600px) {
+    .t-spacing {
+        margin-left: 0px !important;
+    }
+}
